@@ -1,0 +1,120 @@
+🎓 Student Portal – Angular Application
+
+A simple Student Management Portal built using Angular and Bootstrap, allowing users to create, view, update, and delete student records through a clean UI with modal-based forms.
+
+🚀 Features
+
+📋 View list of students in card layout
+
+➕ Add new student records
+
+✏️ Edit existing student details
+
+❌ Delete student records
+
+✅ Form validation (required fields & email check)
+
+🪟 Modal-based form UI
+
+🎨 Responsive design using Bootstrap
+
+
+🛠️ Tech Stack
+
+Angular (Standalone Components)
+
+TypeScript
+
+HTML5
+
+Bootstrap 5
+
+NgModel (FormsModule)
+
+
+
+📂 Project Structure
+```
+src/
+│── app/
+│   ├── app.component.ts        # Component logic
+│   ├── app.component.html      # UI template
+│   ├── app.component.spec.ts   # Unit tests
+│   ├── app.config.ts           # App configuration
+│   ├── app.routes.ts           # Application routes
+│
+└── assets/
+```
+
+🧩 Core Functionalities
+Student Fields
+
+Name *
+
+Mobile Number *
+
+Email *
+
+City
+
+State
+
+Pincode
+
+Address
+
+(* required fields)
+
+
+✅ Form Validation Rules
+
+Name, Mobile No, and Email are mandatory
+
+Email must contain @
+
+Validation messages shown after form submission
+
+
+▶️ How to Run the Project
+
+1️⃣ Install Dependencies
+npm install
+
+2️⃣ Run Development Server
+ng serve
+
+3️⃣ Open in Browser
+http://localhost:4200/
+
+
+📸 UI Overview
+
+Student cards display basic details
+
+“Add New” button opens modal
+
+Edit/Delete actions available per student
+
+Empty state message shown when no records exist
+
+
+
+🔮 Future Enhancements
+
+🔐 Authentication & authorization
+
+🌐 Backend API integration
+
+💾 Database persistence
+
+🔍 Search & filter students
+
+📄 Pagination
+
+📱 Mobile-first improvements
+
+
+👨‍💻 Author
+
+Student Portal Angular App
+Built for learning and demonstration purposes.
