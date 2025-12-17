@@ -77,6 +77,11 @@ Student Fields
 
 # ▶️ How to Run the Project
 
+## Clone the Repo
+```
+git clone https://github.com/palladeepu75/Angular-Student-Portal.git
+```
+
 ## 1️⃣ Install Dependencies
 ```
 npm install
